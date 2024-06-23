@@ -1,0 +1,648 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/base.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.base_container__eHpWT{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    overflow: auto;
+    font-family: 'rank';
+}
+
+.base_part_one_body__rBy19{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+
+.base_body_holder__VMK0M{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.base_walo__ZmYDc{
+    display: flex;
+    align-items: center;
+}
+
+.base_part_two_body__t3bQ7{
+    position: relative;
+    width: 60%;
+    height: 900px;
+    background: #1F1F1F;
+    border-radius: 15px;
+}
+
+.base_box__SSwNy{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    visibility: hidden;
+}
+
+.base_the_holder__jVhgI{
+    height: 800px;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+@media (max-width: 1750px){
+    .base_body_holder__VMK0M{
+        justify-content: space-between;
+    }
+    .base_part_two_body__t3bQ7{
+        width: 60.5%;
+    }
+}
+
+@media (max-width: 1500px){
+    .base_body_holder__VMK0M{
+        flex-direction: column;
+    }
+    .base_part_one_body__rBy19{
+        width: 100%;
+    }
+    .base_box__SSwNy{
+        display: flex;
+        visibility: visible;
+    }
+    .base_part_two_body__t3bQ7{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 700px){
+    .base_body_holder__VMK0M{
+        width: 90%;
+    }
+    .base_box__SSwNy{
+        display: none;
+        visibility: hidden;
+    }
+    .base_part_one_body__rBy19{
+        width: 100%;
+    }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navbar__XBhMQ{
+
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.navbar_navbar_container__q4bzH{
+    width: 80%;
+    padding: 2px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_flexit__pF2pR{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 45%;
+}
+
+.navbar_logo__UX7wl{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(227, 227, 227);
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-family: 'sig';
+}
+
+.navbar_search_holder__4qPz2{
+    background: #242424;
+    border: 1.5px solid #868686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+    height: 55px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.navbar_lookforit__X3QBG{
+    background: #242424;
+    border: 1.5px solid #868686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+    height: 55px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    visibility: hidden;
+    display: none;
+}
+
+.navbar_second_part__Tqxqa{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar_block__3qkKO{
+    width: 100%;
+    height: 100px;
+}
+
+.navbar_search__fjJk0{
+    outline: transparent;
+    height: 100%;
+    width: 80%;
+    background: transparent;
+}
+
+.navbar_search_logo__HoSm4{
+    background: transparent;
+    margin: 0 10px;
+    color: #868686;
+}
+
+.navbar_setting_holder__eEoOD{
+    background: #FF6B00;
+    padding: 10px;
+    border-radius: 5px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:55px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.702);
+    transition: 0.5s;
+}
+
+
+.navbar_setting_holder__eEoOD:hover{
+    background: #ff7715;
+    color: black;
+}
+
+.navbar_profile_holder__Rawrj{
+    cursor: pointer;
+    background: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 55px;
+}
+
+.navbar_profile_holder_pic__336qE{
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+.navbar_profile_holder_username__1PJSK{
+    margin-right: 10px;
+    font-weight: 500;
+    color: #FF6B00;
+}
+
+@media (max-width:700px){
+    .navbar_navbar_container__q4bzH{
+       width: 95%;
+    }
+    .navbar_profile_holder_username__1PJSK{
+       display: none;
+       visibility: hidden;
+    }
+    .navbar_search_holder__4qPz2{
+       display: none;
+       visibility: hidden;
+    }
+    .navbar_lookforit__X3QBG{
+       visibility: visible;
+       display: flex;
+    }
+   }
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/profile.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.profile_card_one__8xF0c
+{
+    width: 430px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    background: #1F1F1F;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_part_two_body___ZH0y{
+    width: 1300px;
+    height: 500px;
+    background: rgb(162, 255, 0);
+}
+
+.profile_profile_holder_pic__ZCBXi{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.profile_profile_pic__kYt14{
+    width: 90%;
+    border-radius: 15px;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+.profile_hold_pers_info__F4CQW{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.profile_lvl__L4xbI{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_username__MxdUZ{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF6B00;
+}
+
+.profile_fullname__GUIhN{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+.profile_ktaba__0Jv8h{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+@media (max-width: 700px){
+    .profile_username__MxdUZ{
+        font-size: 1.7rem;
+    }
+    .profile_fullname__GUIhN{
+        font-size: 0.8rem;
+    }
+    .profile_card_one__8xF0c{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .profile_part_one_body__yIcE7{
+        width: 100%;
+    }
+    .profile_ktaba__0Jv8h{
+        font-size: 1.1rem;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/campus.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.campus_card_two__WktYe
+{
+    width: 430px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    background: #FF6B00;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.campus_row_data__4FfJz{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.campus_ktaba__5q59u{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.campus_campus_id__LsSIS{
+    font-weight: 300;
+    color: black;
+}
+
+@media (max-width: 700px){
+    .campus_card_two__WktYe{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .campus_ktaba__5q59u{
+        font-size: 1.4rem;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/futur.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.futur_card_three__Oj5ME
+{
+    width: 430px;
+    padding: 55px 15px;
+    border-radius: 15px;
+    background: #1F1F1F;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.futur_ktaba__mLrfG{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF6B00;
+}
+
+@media (max-width: 1450px){
+    .futur_card_three__Oj5ME{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 700px){
+    .futur_card_three__Oj5ME{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .futur_ktaba__mLrfG{
+        font-size: 1.4rem;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/header_leaderbord.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+
+.header_leaderbord_header__UwS1Y{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    top: 0;
+    padding: 10px;
+    
+}
+
+.header_leaderbord_header_first__P8jS9{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+.header_leaderbord_header_second__NI8eQ{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+
+@media (max-width: 1450px){
+
+    /* .header_first{
+        gap: 40px;
+    } */
+}
+
+@media (max-width: 700px){
+
+    .header_leaderbord_part_one_body__E5f4f{
+        width: 100%;
+    }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/label_profile.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.label_profile_container__xiWrH{
+    position: relative;
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+    background: #292929;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.label_profile_container__xiWrH:hover{
+    background: #3b3b3b;
+}
+
+.label_profile_first_part__xD9IG{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 78%;
+}
+
+.label_profile_info__i4CS5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label_profile_login__dhMDj{
+    color: white;
+}
+
+.label_profile_pic__7RWDE{
+    margin-left: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: #7E7E7E;
+}
+
+.label_profile_second_part__0Z2Q1{
+    margin-right: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #FF6B00;
+}
+
+.label_profile_pic_user__Vsd3w{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+@media (max-width: 500px){
+    .label_profile_first_part__xD9IG   {
+        width: 65%;
+    }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/home/components/loading_p.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes loading_p_blinkCursor__JE47f {
+    50% {
+      border-right-color: transparent;
+    }
+  }
+  
+  @keyframes loading_p_typeAndDelete__lfOvq {
+    0%,
+    10% {
+      width: 0;
+    }
+    45%,
+    55% {
+      width: 6.2em;
+    } /* adjust width based on content */
+    90%,
+    100% {
+      width: 0;
+    }
+  }
+  
+  .loading_p_terminal_Loader__KkbBy {
+    border: 0.1em solid #333;
+    background-color: #1a1a1a;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 1.5em 1em;
+    width: 12em;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .loading_p_terminal_header__84u1b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+    background-color: #333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0 0.4em;
+    box-sizing: border-box;
+  }
+  
+  .loading_p_terminal_controls__1YnTt {
+    float: right;
+  }
+  
+  .loading_p_control__eqwcv {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    background-color: #777;
+  }
+  
+  .loading_p_control__eqwcv.loading_p_close__PQIPc {
+    background-color: #e33;
+  }
+  
+  .loading_p_control__eqwcv.loading_p_minimize__2B4xn {
+    background-color: #ee0;
+  }
+  
+  .loading_p_control__eqwcv.loading_p_maximize__k5RVr {
+    background-color: #0b0;
+  }
+  
+  .loading_p_terminal_title__tr1hX {
+    float: left;
+    line-height: 1.5em;
+    color: #eee;
+  }
+  
+  .loading_p_text___uAaD {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.2em solid green; /* Cursor */
+    animation: loading_p_typeAndDelete__lfOvq 4s steps(11) infinite,
+      loading_p_blinkCursor__JE47f 0.5s step-end infinite alternate;
+    margin-top: 1.5em;
+  }
+  
