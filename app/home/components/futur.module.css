@@ -1,0 +1,39 @@
+.card_three
+{
+    width: 430px;
+    padding: 55px 15px;
+    border-radius: 15px;
+    background: #1F1F1F;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ktaba{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF6B00;
+}
+
+@media (max-width: 1450px){
+    .card_three{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 700px){
+    .card_three{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .ktaba{
+        font-size: 1.4rem;
+    }
+}

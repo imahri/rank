@@ -1,0 +1,81 @@
+.card_one
+{
+    width: 430px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    background: #1F1F1F;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.part_two_body{
+    width: 1300px;
+    height: 500px;
+    background: rgb(162, 255, 0);
+}
+
+.profile_holder_pic{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.profile_pic{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.hold_pers_info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.lvl{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF6B00;
+}
+
+.fullname{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+.ktaba{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+@media (max-width: 700px){
+    .username{
+        font-size: 1.7rem;
+    }
+    .fullname{
+        font-size: 0.8rem;
+    }
+    .card_one{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .part_one_body{
+        width: 100%;
+    }
+    .ktaba{
+        font-size: 1.1rem;
+    }
+}

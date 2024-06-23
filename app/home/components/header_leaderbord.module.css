@@ -1,0 +1,44 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    top: 0;
+    padding: 10px;
+    
+}
+
+.header_first{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+}
+
+.header_second{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7E7E7E;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+
+@media (max-width: 1450px){
+
+    .header_first{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 700px){
+
+    .part_one_body{
+        width: 100%;
+    }
+}
