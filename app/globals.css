@@ -31,3 +31,35 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'rank';
+  src: url('../public/fonts/gGrest.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sig';
+  src: url('../public/fonts/Rockybilly.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #48433E;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FBFBEE;
+  border-radius: 14px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d6d6c9;
+}

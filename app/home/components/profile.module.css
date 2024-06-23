@@ -26,6 +26,8 @@
 .profile_pic{
     width: 90%;
     border-radius: 15px;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .hold_pers_info{

@@ -8,6 +8,7 @@ import Campus from "./campus"
 import Futur from "./futur"
 import HeaderLead from "./header_leaderbord"
 import LabelProfile from "./label_profile"
+import Load from "./loading_p"
 
 
 const Base = () => {
@@ -26,7 +27,7 @@ const Base = () => {
                         <Futur />
                     </div>
                     <div className={style.box}>
-                        asdsdas
+                        <Load />
                     </div>
                 </div>
 
@@ -39,10 +40,24 @@ const Base = () => {
 
                 <div className={style.the_holder}>
                     <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
+                    <LabelProfile />
                 </div>
 
             </div>
         </div>
+
 
 
     </div>;

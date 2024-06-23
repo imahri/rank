@@ -28,12 +28,13 @@
 }
 
 .logo{
-    background: #FF6B00;
-    font-size: 2rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
     font-weight: 600;
-    color: black;
+    color: rgb(227, 227, 227);
     padding: 5px 25px;
     border-radius: 5px;
+    font-family: 'sig';
 }
 
 .search_holder{
@@ -128,6 +129,8 @@
     width: 45px;
     height: 45px;
     border-radius: 5px;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .profile_holder_username{

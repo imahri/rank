@@ -11,7 +11,7 @@
 
 .header_first{
     display: flex;
-    width: 30%;
+    width: 80%;
     justify-content: space-between;
     padding: 15px;
     padding-left: 20px;
@@ -31,9 +31,9 @@
 
 @media (max-width: 1450px){
 
-    .header_first{
+    /* .header_first{
         gap: 40px;
-    }
+    } */
 }
 
 @media (max-width: 700px){

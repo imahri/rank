@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className={style.navbar_container}>
                 <div className={`${style.flexit} ${style.first_part}`}>
                     <div className={style.logo}>
-                        24
+                        10H
                     </div>
                     <div className={style.search_holder}>
                         <IoSearch className={style.search_logo} size={30}/>

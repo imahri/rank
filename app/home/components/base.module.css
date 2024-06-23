@@ -4,6 +4,7 @@
     height: 100%;
     background: #323232;
     overflow: auto;
+    font-family: 'rank';
 }
 
 .part_one_body{
@@ -34,18 +35,23 @@
     height: 900px;
     background: #1F1F1F;
     border-radius: 15px;
-    overflow: auto;
 }
 
 .box{
     width: 100%;
     height: 200px;
-    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: none;
     visibility: hidden;
 }
 
-
+.the_holder{
+    height: 800px;
+    overflow: auto;
+    padding: 10px 0;
+}
 
 @media (max-width: 1750px){
     .body_holder{
@@ -56,7 +62,7 @@
     }
 }
 
-@media (max-width: 1450px){
+@media (max-width: 1500px){
     .body_holder{
         flex-direction: column;
     }

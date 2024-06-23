@@ -22,7 +22,7 @@ const LabelProfile = () => {
             </div>
 
             <div className={style.info}>
-                
+                <p className={style.login}>imahri</p>
             </div>
 
         </div>
