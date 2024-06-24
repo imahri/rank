@@ -46,6 +46,19 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'p_sb';
+  src: url('../public/fonts/pf-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'p_b';
+  src: url('../public/fonts/pf-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 *::-webkit-scrollbar {
