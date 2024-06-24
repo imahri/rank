@@ -6,7 +6,7 @@ const HeaderLead = () => {
         <div className={style.header}>
             <div className={style.header_first}>
                 <p>Rank</p>
-                <p>Username</p>
+                <p className={style.username}>Username</p>
             </div>
             <div className={style.header_second}>
                 <p>Lvl</p>

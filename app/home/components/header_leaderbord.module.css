@@ -42,3 +42,9 @@
         width: 100%;
     }
 }
+
+@media (max-width:500px){
+    .username{
+        margin-right: 25px;
+    }
+}
