@@ -11,16 +11,7 @@ const LabelProfile = (props) => {
         <div className={style.first_part}>
 
             <div className={style.pic}>
-                {/* <div>{id}</div> */}
                 <div>
-                    {/* {picpic.link != null &&  <Image 
-                        src={picpic.link}
-                        width={1000}
-                        height={1000}
-                        alt="profile pic"
-                        className={style.pic_user}
-                    />} */}
-                    {/* { picpic.link == null */}
                      <Image 
                         src={picpic.versions.small || profilePic}
                         width={1000}
