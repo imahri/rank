@@ -1,6 +1,8 @@
 # Rank 42 #
 
-<img src="https://github.com/imahri/rank/blob/main/Frame%2016.png"/>
+<img src="https://github.com/imahri/rank/blob/main/Frame%2016-min.png"/>
+
+<img src="https://github.com/imahri/rank/blob/main/Frame%2017-min.png"/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
